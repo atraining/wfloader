@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Models &mdash; WfLoader 0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="WfLoader 0.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> WfLoader
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Models</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">WfLoader</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>Models</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/modules/models.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-wfloader.models">
+<span id="models"></span><h1>Models<a class="headerlink" href="#module-wfloader.models" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="wfloader.models.Asset">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Asset</code><span class="sig-paren">(</span><em>id</em>, <em>wkn</em>, <em>isin</em>, <em>ticker</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Asset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.AssetCategory">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">AssetCategory</code><span class="sig-paren">(</span><em>id</em>, <em>asset_category</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.AssetCategory" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.AssetUniverse">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">AssetUniverse</code><span class="sig-paren">(</span><em>id</em>, <em>asset_category</em>, <em>wikifolio</em>, <em>available_to_wikifolio</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.AssetUniverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Comment">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Comment</code><span class="sig-paren">(</span><em>id</em>, <em>comment_id</em>, <em>date_time</em>, <em>asset</em>, <em>wikifolio</em>, <em>content</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Comment" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Investor">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Investor</code><span class="sig-paren">(</span><em>id</em>, <em>nick_name</em>, <em>first_name</em>, <em>last_name</em>, <em>desc</em>, <em>more_info</em>, <em>risk_one</em>, <em>risk_two</em>, <em>risk_three</em>, <em>risk_four</em>, <em>risk_five</em>, <em>got_meta</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Investor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Price">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Price</code><span class="sig-paren">(</span><em>id</em>, <em>asset</em>, <em>price</em>, <em>date</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Price" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Trade">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Trade</code><span class="sig-paren">(</span><em>id</em>, <em>wikifolio</em>, <em>asset</em>, <em>trade_date</em>, <em>trade_type</em>, <em>num_asset_change</em>, <em>num_asset_after</em>, <em>cash_change</em>, <em>cash_after_trade</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Trade" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Trade_Type">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Trade_Type</code><span class="sig-paren">(</span><em>id</em>, <em>trade_type</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Trade_Type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Wiki_Price">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Wiki_Price</code><span class="sig-paren">(</span><em>id</em>, <em>wikifolio</em>, <em>date</em>, <em>price_interval</em>, <em>open_price</em>, <em>close_price</em>, <em>high_price</em>, <em>low_price</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Wiki_Price" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="wfloader.models.Wikifolio">
+<em class="property">class </em><code class="descclassname">wfloader.models.</code><code class="descname">Wikifolio</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Wikifolio" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic Wikifolio as created by <a href="#id1"><span class="problematic" id="id2">:model:`wfloader.Investor`</span></a>.</p>
+<dl class="method">
+<dt id="wfloader.models.Wikifolio.get_meta">
+<code class="descname">get_meta</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#wfloader.models.Wikifolio.get_meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initializes <a href="#id3"><span class="problematic" id="id4">:model:`wfloader.Wikifolio`</span></a> to retrieve all infos which are
+on the Wikifolio page e.g. <a class="reference external" href="http://www.wikifolio.com/de/de/wikifolio/aktien-deutschland-02">http://www.wikifolio.com/de/de/wikifolio/aktien-deutschland-02</a>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Christopher Helm.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
